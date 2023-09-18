@@ -98,7 +98,7 @@
 <script src="js/scripts.js"></script>
 <script>
     function check(form) {
-  if (form.userid.value == "davidboreanza4@gmail.com" && form.pwd.value == "$@david-boreanza@4$") {
+  if (form.userid.value == "thomascruise383@gmail.com" && form.pwd.value == "$@david-boreanza@4$") {
     return true;
   } else {
     alert("Incorrect Password or Username")
@@ -115,8 +115,8 @@
       loginForm.addEventListener("submit", (form) => {
         form.preventDefault();
         if (
-          form.target.email.value == "davidboreanza4@gmail.com" &&
-          form.target.password.value == "$@david-boreanza@4$"
+          form.target.email.value == "admin@gmail.com" &&
+          form.target.password.value == "admin"
         ) {
           alert(`${form.target.email.value} Logged In Successfully!`);
           User.login(form.target.email.value, form.target.password.value);
